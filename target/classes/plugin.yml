@@ -1,0 +1,17 @@
+name: DeathLightning
+version: '1.0'
+main: me.athish.deathLightning.DeathLightning
+authors: [ Athishh ]
+description: Spawn lightning when a player dies.
+website: https://itomsd.com
+commands:
+  thor:
+    description: Summons lightning
+    usage: /thor [player]
+  lighting:
+    description: Summons lightning
+    usage: /lighting [player]
+permissions:
+  itomsd.lightingofdeath.use:
+    description: Allows the use of lightning summoning commands
+    default: op
